@@ -12,13 +12,13 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Git Alert</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Aplaud!</a>
+          Welcome to <a href="https://next-js-novu-git-hub.vercel.app/">GitAlert!</a>
         </h1>
         
         <h2>Issue Title</h2>
