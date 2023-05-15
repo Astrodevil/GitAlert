@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export async function getServerSideProps(){
-  const res = await fetch('http://localhost:3000/api/issues');
+  const res = await fetch('https://next-js-novu-git-hub.vercel.app/api/issues');
   const data = await res.json();
 
   return {props: {data}}
@@ -12,13 +12,13 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Git Alert</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Aplaud!</a>
+          Welcome to <a href="https://next-js-novu-git-hub.vercel.app/">GitAlert!</a>
         </h1>
         
         <h2>Issue Title</h2>
