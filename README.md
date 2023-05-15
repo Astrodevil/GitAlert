@@ -12,7 +12,7 @@ The ultimate service for managing multi-channel notifications with a single API.
 <p>A push notification system that integrates with popular social media platforms and sends personalized alerts for new posts or interactions.</p>
 
 <h3>Technologies being used</h3>
-<p>NextJS / CSS / Git / JavaScript</p>
+<p>NextJS / CSS / Git / JavaScript / Novu</p>
 
 <h3>App Link</h3>
 <p>https://next-js-novu-git-hub.vercel.app/</p>
