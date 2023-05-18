@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export async function getServerSideProps(){
-  const res = await fetch('https://next-js-novu-git-hub.vercel.app/api/issues');
+  const res = await fetch('https://gitalert.vercel.app/api/issues');
   const data = await res.json();
 
   return {props: {data}}
