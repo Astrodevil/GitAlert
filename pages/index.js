@@ -18,7 +18,7 @@ export default function Home({data}) {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Aplaud!</a>
+          Welcome to <a href="https://nextjs.org">GitAlert!</a>
         </h1>
         <nav class={styles.nav}>
           <a href="/api/auth/signin">Sign In</a>
