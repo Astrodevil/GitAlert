@@ -12,13 +12,13 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>GitAlert</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">GitAlert!</a>
+          Welcome to <a href="https://github.com/Astrodevil/GitAlert">GitAlert!</a>
         </h1>
         <nav class={styles.nav}>
           <a href="/api/auth/signin">Sign In</a>
@@ -32,6 +32,10 @@ export default function Home({data}) {
         <p>{ data.url }</p>
         <h2>Relevent Tags</h2>
         <p>{ data.labels.join(', ') }</p>
+
+      <button>
+        <a href="https://gitalert.vercel.app/api/issues?send=true">Send Alert</a>
+      </button>
       </main>
 
       <footer>
