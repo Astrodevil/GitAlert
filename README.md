@@ -33,4 +33,4 @@ We are a team of 3 folks who are interested in building new projects to practice
 - Kunal 
 
 <h3>Additional Resources/Info</h3>
-<p>This project still needs some more time to get fully functional. We are working towards it and will implement new things in the future.</p>
+<p>This project is working fine on it's basic purpose but need some more time to get extra functionability. We are working towards it and will implement new things in the future.</p>
