@@ -27,7 +27,7 @@ The ultimate service for managing multi-channel notifications with a single API.
 ### Who are you?
 We are a team of 3 folks who are interested in building new projects to practice their new learnings. We have decided to build this project after seeing a tutorial of similar kind. We wanted to implement this GitAlert app idea to solve real world usage which a new contributors faced while doing open-source. they don't know what and where to find **Good-First-issue** and this app will help them by randomly finding issue and get automated alert on their email or SMS.
 
-<h4>Our Team<h4>
+#### Our Team
 - [Anand](https://github.com/Astrodevil)
 - [Harshit](https://github.com/HarshitGupta3017) 
 - Kunal 
